@@ -1,0 +1,14 @@
+name: prediction
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - pandas
+      - numpy
+      - scikit-learn
+      - xgboost
+      - matplotlib
+      - seaborn
+      - streamlit
+      - joblib
+      - pyyaml
